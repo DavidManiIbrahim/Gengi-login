@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <style>
+        body {
+            background-image: url(GEN.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        nav ul li {
+          flex-direction: column;
+            margin-left: 150px;
+            text-align: center;
+            border-radius: 10px;
+            padding: 5px;
+            position: flex;
+            width: 200px;
+        }
+
+        .nav {
+            background-color: transparent;
+            height: 50px;
+            padding-top: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+
+        }
+
+        ul li {
+            float: left;
+            padding-left: 150px;
+            list-style: none;
+            text-decoration: none;
+            width: 1000px;
+            font-weight: bold;
+        }
+
+        a{
+            text-decoration: none;
+            background-color: black;
+            padding: 10px;
+            border-radius: 5px;
+            color: aliceblue;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a:visited {
+            color: rgb(255, 255, 255);
+            background-color: transparent;
+            text-decoration: none;
+            width: 200px;
+            border-radius: 20px;
+        }
+
+        a:hover {
+            color: rgb(255, 0, 0);
+            background-color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 10px;
+            width: 500px;
+            height: 100px;
+        }
+
+        div {
+            float: initial;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+
+    <h1 style="color: white; font-family: 'Courier New', Courier, monospace;">HI i'm DMI</h1>
+
+
+    <div style="width: 300px; margin: 200px auto; padding:5px; height: 250px; border-radius:5px;background-color: aliceblue;
+         color: grey;border: 1px solid; ">
+        <h2 style="text-align: center;">LOGIN FORM</h2>
+        <label for="username" type="form-label" required>Username:</label>
+
+        <input type="text" id="username" class="form-control" required style="padding: 5px;border-radius: 5px; ">
+        <br><br>
+        <label for="Password" id="Password" class="form-label">Password:</label>
+        <input type="text" id="password" class="form-control" required style="padding: 5px;border-radius: 5px; ">
+        <br><br>
+        
+            <input id="btn" type="submit" value="LOGIN" style="margin: 1% auto; text-align:center; width: 200px; height: 30px;
+             border: 1px solid; border-radius: 5px; background-color: gold; margin-left: 60px; ">
+        
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
